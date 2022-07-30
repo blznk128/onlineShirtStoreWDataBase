@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+     #output {
+            clear: both;
+        }
+        
+        #checkoutdiv {
+            display: none;
+        }
+        
+        .footer {
+            background-color: darkgrey;
+            color: white;
+        }
+
+        img {
+            height: 305px!important;
+        }
+</style>
+</head>
+<body>
+    
+
+    <header class="header">
+        <div class="htop">
+            <div id="checkoutdiv " class="container">
+                <div class="row">
+                    <div class="col-md-6 text-xs-right ">(<span class="items text-muted"></span> <small>items</small>) <span class="total"></span> </div>
+                    <div class="col-md-6 text-xs-right"> <span class="btn btn-success" data-toggle="modal" data-target="#cart">Open Shopping Cart</span><a href="checkout.html" class="btn btn-primary">Proceed to checkout</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="hbot">
+            <div class="container">
+                <nav class="navbar navbar-full navbar-dark bg-inverse">
+                    <button class="navbar-toggler light float-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#nvbar"></button>
+                    <div id="nvbar" class="collapse navbar-toggleable-xs">
+                        <ul class="nav navbar-nav float-sm-right ">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            
+                            <!-- <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li> -->
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <!-- content changes on each page -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">Blue Shirt</h3>
+                            <h6 class="card-subtitle text-muted">$1.00</h6> <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mh-3-23-shirts-1616515905.png?crop=0.502xw:1.00xh;0,0&resize=640:*" class="img-fluid" height="350px"> </div>
+                        <div class="card-block">
+                            <div class="card-text">Product information description why its the best product ever blah blah <a href="#" class="card-link productItem btn btn-primary" data-name="BlueShirt" data-s="black" data-price="100" data-id="1">Add to Cart</a> </div>
+                            <div class="elfsight-app-95a1552a-167d-4acd-9798-87ff7c90eadf"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">white shirt</h3>
+                            <h6 class="card-subtitle text-muted">$300.00</h6> <img src="https://i.pinimg.com/originals/16/4e/fc/164efc893497e5774f1fdc4c6d346d59.jpg" class="img-fluid" height="350px"> </div>
+                        <div class="card-block">
+                            <div class="card-text">Product information description why its the best product ever blah blah <a href="#" class="productItem btn btn-primary" data-name="whiteShirt" data-s="white" data-price="30000" data-id="2">Add to Cart</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">striped shirt</h3>
+                            <h6 class="card-subtitle text-muted">$12.00</h6> <img src="https://images-na.ssl-images-amazon.com/images/I/61FLgJzwR3L._AC_UX385_.jpg" class="img-fluid"> </div>
+                        <div class="card-block">
+                            <div class="card-text">Product information description why its the best product ever blah blah <a href="#" class="productItem btn btn-primary" data-name="stripedShirt" data-s="3" data-price="1200" data-id="3">Add to Cart</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">Checkered</h3>
+                            <h6 class="card-subtitle text-muted">$500.00</h6> <img src="https://media.tractorsupply.com/is/image/TractorSupplyCompany/1497240?$456$" class="img-fluid" height="350"> </div>
+                        <div class="card-block">
+                            <div class="card-text">Product information description why its the best product ever blah blah <a href="#" class="card-link productItem btn btn-primary" data-name="checkered" data-s="black" data-price="50000" data-id="4">Add to Cart</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">Grey</h3>
+                            <h6 class="card-subtitle text-muted">$300.00</h6> <img src="https://spy.com/wp-content/uploads/2020/06/j.crew-broken-in-tshirts.jpg?w=500" class="img-fluid" height="350"> </div>
+                        <div class="card-block">
+                            <div class="card-text">Product information description why its the best product ever blah blah <a href="#" class="productItem btn btn-primary" data-name="grey" data-s="white" data-price="30000" data-id="5">Add to Cart</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">Orange</h3>
+                            <h6 class="card-subtitle text-muted">$12.00</h6> <img src="https://www.stihlusa.com/WebContent/Images/Product/3243/8402244.png?preset=Product.ProductDetails" class="img-fluid"> </div>
+                        <div class="card-block">
+                            <div class="card-text">Product information description why its the best product ever blah blah <a href="#" class="productItem btn btn-primary" data-name="orange" data-s="3" data-price="1200" data-id="6">Add to Cart</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-xs-center">&copy; Copyright info blah blah </p>
+        </div>
+    </footer>
+    <!-- Modals -->
+    <div class="modal fade" id="cart" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Shopping Cart</h4></div>
+                <div class="modal-body">
+                    <table class="table table-hover">
+                        <thead class="thead-inverse">
+                            <tr>
+                                <th>Remove</th>
+                                <th>Qty</th>
+                                <th>Item Name</th>
+                                <th>Cost</th>
+                                <th class="text-xs-right">Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody id="output"> </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Continue Shopping</button><a href="checkout.html" class="btn btn-primary">Proceed to checkout</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.navbar {
+    background: black;
+}
+
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+ul.nav a:hover { color: rgb(130, 3, 3) !important; }
